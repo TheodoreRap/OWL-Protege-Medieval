@@ -1,0 +1,2302 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MedievalSociety"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MedievalSociety">
+    <Prefix name="" IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MedievalSociety"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Archbishop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bishop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buildings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cardinal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Castle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cathedral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Church"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coadjutor_Bishop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Craftman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diocesan_Bishop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gentry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GreatKing_GreatQueen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighKing_HighQueen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inkeeper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mansion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monestary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Priest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shopkeeper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Titular_Bishop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Archduke_Archduchess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Baron_Baroness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Chevalier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Count_Countess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#CrownPrince_CrownPrincess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Duke_Duchess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Earl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Emperor_Empress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Farmer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#HighRankServants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#ImperialKnight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#King_Queen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Knight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#LowRankServants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Maid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Marquess_Marquis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#MedievalSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Merchant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#NobleKnights"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Nobles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Page"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Peasants_Plebeians"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Prince_Princess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Royalty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Sir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Squire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Valet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Vassals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Viscount_Viscountess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#advises"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#buildBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#crown"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEqualPower"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLessPower"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMorePower"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMorePrevilege"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasServants"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBrother"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lives"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#owns"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#protects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sells"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#serves"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#takeAdvise"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Bathrooms"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Bed_Chambers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Bracelet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DateBuild"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FieldSpace"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Great_Hall"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Inn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Jewelries"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Kitchens"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Necklace"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Owner"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Rent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Ring"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Servants"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Shield"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Solars"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sword"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Weapons"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRoyalBlood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basilian_Monk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bodiam_Castle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brian_Boru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Canterbury_Cathedral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carolos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Catholic_Cardinal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Catholic_Coadjutor_Bishop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Catholic_Diocesan_Bishop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Catholic_Titular_Bishop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Charlemagne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Decent_House"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Decent_House_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Decent_House_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dover_Castle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dracula"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Duke_Of_Cornwall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Duke_Of_Wellington"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Earl_Of_Ulster"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eynsford_Castle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ferdinand_III"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Götz_von_Berlichingen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kenilworth_Castle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lord_Noble"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marquess_Of_Winchester"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mediaval_Blacksmith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Chevalier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Church"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Craftman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Farmer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Farmer_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Farmer_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Farmer_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Inkeeper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Inn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Knight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Maid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Mansion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Merchant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Merchant_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Merchant_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Monastery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Page"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Shop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Shopkeeper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Squire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Valet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Worker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Worker_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Worker_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Worker_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medieval_Worker_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nicolaus_Copernicus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peter_Apianus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pope_Leo_III"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Red_Baron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simple_House"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simple_House_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simple_House_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simple_House_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sir_Noble"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stefan_The_First"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thomas_Becket"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thomas_von_Absberg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ulrich_von_Hutten"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Viscount_Hereford"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Edward_The_Black_Prince"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Leopold_Wilhelm_of_Austria"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Cardinal"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Archbishop"/>
+            <Class IRI="#Diocesan_Bishop"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Emperor_Empress"/>
+        <ObjectUnionOf>
+            <Class IRI="#GreatKing_GreatQueen"/>
+            <Class IRI="#HighKing_HighQueen"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#ImperialKnight"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Chevalier"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Knight"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Merchant"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Craftman"/>
+            <Class IRI="#Shopkeeper"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Royalty"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Nobles"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasRoyalBlood"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Archbishop"/>
+        <Class IRI="#Clergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bishop"/>
+        <Class IRI="#Clergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buildings"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#MedievalSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardinal"/>
+        <Class IRI="#Clergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Castle"/>
+        <Class IRI="#Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Castle"/>
+        <ObjectMinCardinality cardinality="50">
+            <ObjectProperty IRI="#buildBy"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cathedral"/>
+        <Class IRI="#Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cathedral"/>
+        <ObjectMinCardinality cardinality="20">
+            <ObjectProperty IRI="#buildBy"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Church"/>
+        <Class IRI="#Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Church"/>
+        <ObjectMinCardinality cardinality="10">
+            <ObjectProperty IRI="#buildBy"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clergy"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#MedievalSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coadjutor_Bishop"/>
+        <Class IRI="#Bishop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Craftman"/>
+        <Class IRI="#Gentry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diocesan_Bishop"/>
+        <Class IRI="#Bishop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gentry"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#MedievalSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreatKing_GreatQueen"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#King_Queen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighKing_HighQueen"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#King_Queen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#House"/>
+        <Class IRI="#Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#House"/>
+        <ObjectMinCardinality cardinality="5">
+            <ObjectProperty IRI="#buildBy"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inkeeper"/>
+        <Class IRI="#Gentry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inkeeper"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProperty"/>
+            <Class IRI="#Inn"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inn"/>
+        <Class IRI="#Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inn"/>
+        <ObjectMinCardinality cardinality="5">
+            <ObjectProperty IRI="#buildBy"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lord"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#NobleKnights"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mansion"/>
+        <Class IRI="#Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mansion"/>
+        <ObjectMinCardinality cardinality="15">
+            <ObjectProperty IRI="#buildBy"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monestary"/>
+        <Class IRI="#Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monestary"/>
+        <ObjectMinCardinality cardinality="10">
+            <ObjectProperty IRI="#buildBy"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monk"/>
+        <Class IRI="#Clergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monk"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#lives"/>
+            <Class IRI="#Monestary"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pope"/>
+        <Class IRI="#Clergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pope"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#crown"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#King_Queen"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Priest"/>
+        <Class IRI="#Clergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Priest"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#serves"/>
+            <Class IRI="#Church"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shop"/>
+        <Class IRI="#Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shop"/>
+        <ObjectMinCardinality cardinality="5">
+            <ObjectProperty IRI="#buildBy"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shopkeeper"/>
+        <Class IRI="#Gentry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shopkeeper"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProperty"/>
+            <Class IRI="#Shop"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Titular_Bishop"/>
+        <Class IRI="#Bishop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Titular_Bishop"/>
+        <ObjectComplementOf>
+            <Class IRI="#Coadjutor_Bishop"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Archduke_Archduchess"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Royalty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Archduke_Archduchess"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#advises"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#King_Queen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Archduke_Archduchess"/>
+        <ObjectMaxCardinality cardinality="10">
+            <ObjectProperty IRI="#hasServants"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Maid"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Baron_Baroness"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Nobles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Chevalier"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#NobleKnights"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Count_Countess"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Nobles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#CrownPrince_CrownPrincess"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Royalty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#CrownPrince_CrownPrincess"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasTitle"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Duke_Duchess"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#CrownPrince_CrownPrincess"/>
+        <ObjectMaxCardinality cardinality="5">
+            <ObjectProperty IRI="#hasServants"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Maid"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Duke_Duchess"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Nobles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Duke_Duchess"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProperty"/>
+            <Class IRI="#Mansion"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Earl"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Nobles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Earl"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Count_Countess"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Emperor_Empress"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Royalty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Emperor_Empress"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#lives"/>
+            <NamedIndividual IRI="#Bodiam_Castle"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Farmer"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Peasants_Plebeians"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#HighRankServants"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Vassals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#HighRankServants"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#serves"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Royalty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#ImperialKnight"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#NobleKnights"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#ImperialKnight"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#protects"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Emperor_Empress"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#King_Queen"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Royalty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#King_Queen"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#takeAdvise"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Archduke_Archduchess"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#King_Queen"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#lives"/>
+            <Class IRI="#Castle"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#King_Queen"/>
+        <ObjectMaxCardinality cardinality="20">
+            <ObjectProperty IRI="#hasServants"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Maid"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Knight"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#NobleKnights"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Knight"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#protects"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Nobles"/>
+                <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Royalty"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#LowRankServants"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Vassals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#LowRankServants"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#serves"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Nobles"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Maid"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#HighRankServants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Marquess_Marquis"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Nobles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Merchant"/>
+        <Class IRI="#Gentry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#NobleKnights"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#MedievalSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Nobles"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#MedievalSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Page"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#LowRankServants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Peasants_Plebeians"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#MedievalSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Prince_Princess"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Royalty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Prince_Princess"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#CrownPrince_CrownPrincess"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Prince_Princess"/>
+        <ObjectMaxCardinality cardinality="10">
+            <ObjectProperty IRI="#hasServants"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Maid"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Prince_Princess"/>
+        <ObjectMaxCardinality cardinality="2">
+            <ObjectProperty IRI="#hasTitle"/>
+            <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Nobles"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Royalty"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#MedievalSociety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Royalty"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Servants"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Sir"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#NobleKnights"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Squire"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#HighRankServants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Valet"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#LowRankServants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Vassals"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Peasants_Plebeians"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Viscount_Viscountess"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Nobles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Peasants_Plebeians"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Archbishop"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bishop"/>
+        <Class IRI="#Monk"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Pope"/>
+        <Class IRI="#Priest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Baron_Baroness"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Page"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#CrownPrince_CrownPrincess"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Farmer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Emperor_Empress"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Squire"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Monk"/>
+        <NamedIndividual IRI="#Basilian_Monk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Castle"/>
+        <NamedIndividual IRI="#Bodiam_Castle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HighKing_HighQueen"/>
+        <NamedIndividual IRI="#Brian_Boru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cathedral"/>
+        <NamedIndividual IRI="#Canterbury_Cathedral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#CrownPrince_CrownPrincess"/>
+        <NamedIndividual IRI="#Carolos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cardinal"/>
+        <NamedIndividual IRI="#Catholic_Cardinal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Coadjutor_Bishop"/>
+        <NamedIndividual IRI="#Catholic_Coadjutor_Bishop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diocesan_Bishop"/>
+        <NamedIndividual IRI="#Catholic_Diocesan_Bishop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Titular_Bishop"/>
+        <NamedIndividual IRI="#Catholic_Titular_Bishop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#King_Queen"/>
+        <NamedIndividual IRI="#Charlemagne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#House"/>
+        <NamedIndividual IRI="#Decent_House"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#House"/>
+        <NamedIndividual IRI="#Decent_House_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#House"/>
+        <NamedIndividual IRI="#Decent_House_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Castle"/>
+        <NamedIndividual IRI="#Dover_Castle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Count_Countess"/>
+        <NamedIndividual IRI="#Dracula"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#CrownPrince_CrownPrincess"/>
+        <NamedIndividual IRI="#Duke_Of_Cornwall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Duke_Duchess"/>
+        <NamedIndividual IRI="#Duke_Of_Wellington"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Earl"/>
+        <NamedIndividual IRI="#Earl_Of_Ulster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Castle"/>
+        <NamedIndividual IRI="#Eynsford_Castle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Emperor_Empress"/>
+        <NamedIndividual IRI="#Ferdinand_III"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#ImperialKnight"/>
+        <NamedIndividual IRI="#Götz_von_Berlichingen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Castle"/>
+        <NamedIndividual IRI="#Kenilworth_Castle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lord"/>
+        <NamedIndividual IRI="#Lord_Noble"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Marquess_Marquis"/>
+        <NamedIndividual IRI="#Marquess_Of_Winchester"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Craftman"/>
+        <NamedIndividual IRI="#Mediaval_Blacksmith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Chevalier"/>
+        <NamedIndividual IRI="#Medieval_Chevalier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Church"/>
+        <NamedIndividual IRI="#Medieval_Church"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Craftman"/>
+        <NamedIndividual IRI="#Medieval_Craftman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Farmer"/>
+        <NamedIndividual IRI="#Medieval_Farmer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Farmer"/>
+        <NamedIndividual IRI="#Medieval_Farmer_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Farmer"/>
+        <NamedIndividual IRI="#Medieval_Farmer_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Farmer"/>
+        <NamedIndividual IRI="#Medieval_Farmer_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inkeeper"/>
+        <NamedIndividual IRI="#Medieval_Inkeeper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inn"/>
+        <NamedIndividual IRI="#Medieval_Inn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Knight"/>
+        <NamedIndividual IRI="#Medieval_Knight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Maid"/>
+        <NamedIndividual IRI="#Medieval_Maid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mansion"/>
+        <NamedIndividual IRI="#Medieval_Mansion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Merchant"/>
+        <NamedIndividual IRI="#Medieval_Merchant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Merchant"/>
+        <NamedIndividual IRI="#Medieval_Merchant_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Merchant"/>
+        <NamedIndividual IRI="#Medieval_Merchant_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Monestary"/>
+        <NamedIndividual IRI="#Medieval_Monastery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Page"/>
+        <NamedIndividual IRI="#Medieval_Page"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shop"/>
+        <NamedIndividual IRI="#Medieval_Shop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shopkeeper"/>
+        <NamedIndividual IRI="#Medieval_Shopkeeper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Squire"/>
+        <NamedIndividual IRI="#Medieval_Squire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Valet"/>
+        <NamedIndividual IRI="#Medieval_Valet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+        <NamedIndividual IRI="#Medieval_Worker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+        <NamedIndividual IRI="#Medieval_Worker_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+        <NamedIndividual IRI="#Medieval_Worker_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+        <NamedIndividual IRI="#Medieval_Worker_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Worker"/>
+        <NamedIndividual IRI="#Medieval_Worker_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Priest"/>
+        <NamedIndividual IRI="#Nicolaus_Copernicus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#ImperialKnight"/>
+        <NamedIndividual IRI="#Peter_Apianus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pope"/>
+        <NamedIndividual IRI="#Pope_Leo_III"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Baron_Baroness"/>
+        <NamedIndividual IRI="#Red_Baron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#House"/>
+        <NamedIndividual IRI="#Simple_House"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#House"/>
+        <NamedIndividual IRI="#Simple_House_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#House"/>
+        <NamedIndividual IRI="#Simple_House_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#House"/>
+        <NamedIndividual IRI="#Simple_House_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Sir"/>
+        <NamedIndividual IRI="#Sir_Noble"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GreatKing_GreatQueen"/>
+        <NamedIndividual IRI="#Stefan_The_First"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archbishop"/>
+        <NamedIndividual IRI="#Thomas_Becket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#ImperialKnight"/>
+        <NamedIndividual IRI="#Thomas_von_Absberg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#ImperialKnight"/>
+        <NamedIndividual IRI="#Ulrich_von_Hutten"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Viscount_Viscountess"/>
+        <NamedIndividual IRI="#Viscount_Hereford"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Prince_Princess"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Edward_The_Black_Prince"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Archduke_Archduchess"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Leopold_Wilhelm_of_Austria"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#serves"/>
+        <NamedIndividual IRI="#Basilian_Monk"/>
+        <NamedIndividual IRI="#Catholic_Coadjutor_Bishop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMorePrevilege"/>
+        <NamedIndividual IRI="#Brian_Boru"/>
+        <NamedIndividual IRI="#Lord_Noble"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Carolos"/>
+        <NamedIndividual IRI="#Duke_Of_Wellington"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#serves"/>
+        <NamedIndividual IRI="#Catholic_Cardinal"/>
+        <NamedIndividual IRI="#Pope_Leo_III"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#serves"/>
+        <NamedIndividual IRI="#Catholic_Coadjutor_Bishop"/>
+        <NamedIndividual IRI="#Catholic_Diocesan_Bishop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#serves"/>
+        <NamedIndividual IRI="#Catholic_Diocesan_Bishop"/>
+        <NamedIndividual IRI="#Duke_Of_Cornwall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasServants"/>
+        <NamedIndividual IRI="#Duke_Of_Cornwall"/>
+        <NamedIndividual IRI="#Medieval_Maid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives"/>
+        <NamedIndividual IRI="#Duke_Of_Cornwall"/>
+        <NamedIndividual IRI="#Bodiam_Castle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#serves"/>
+        <NamedIndividual IRI="#Earl_Of_Ulster"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Edward_The_Black_Prince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMorePower"/>
+        <NamedIndividual IRI="#Lord_Noble"/>
+        <NamedIndividual IRI="#Medieval_Page"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sells"/>
+        <NamedIndividual IRI="#Mediaval_Blacksmith"/>
+        <NamedIndividual IRI="#Medieval_Shop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sells"/>
+        <NamedIndividual IRI="#Medieval_Craftman"/>
+        <NamedIndividual IRI="#Medieval_Merchant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives"/>
+        <NamedIndividual IRI="#Medieval_Farmer"/>
+        <NamedIndividual IRI="#Simple_House_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#owns"/>
+        <NamedIndividual IRI="#Medieval_Farmer"/>
+        <NamedIndividual IRI="#Simple_House_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#owns"/>
+        <NamedIndividual IRI="#Medieval_Inkeeper"/>
+        <NamedIndividual IRI="#Medieval_Inn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#serves"/>
+        <NamedIndividual IRI="#Medieval_Knight"/>
+        <NamedIndividual IRI="#Catholic_Cardinal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Medieval_Mansion"/>
+        <NamedIndividual IRI="#Red_Baron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives"/>
+        <NamedIndividual IRI="#Medieval_Merchant"/>
+        <NamedIndividual IRI="#Decent_House"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#owns"/>
+        <NamedIndividual IRI="#Medieval_Merchant"/>
+        <NamedIndividual IRI="#Decent_House"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives"/>
+        <NamedIndividual IRI="#Medieval_Page"/>
+        <NamedIndividual IRI="#Simple_House"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#buildBy"/>
+        <NamedIndividual IRI="#Medieval_Shop"/>
+        <NamedIndividual IRI="#Medieval_Worker"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#buildBy"/>
+        <NamedIndividual IRI="#Medieval_Shop"/>
+        <NamedIndividual IRI="#Medieval_Worker_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#buildBy"/>
+        <NamedIndividual IRI="#Medieval_Shop"/>
+        <NamedIndividual IRI="#Medieval_Worker_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#buildBy"/>
+        <NamedIndividual IRI="#Medieval_Shop"/>
+        <NamedIndividual IRI="#Medieval_Worker_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#buildBy"/>
+        <NamedIndividual IRI="#Medieval_Shop"/>
+        <NamedIndividual IRI="#Medieval_Worker_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#owns"/>
+        <NamedIndividual IRI="#Medieval_Shopkeeper"/>
+        <NamedIndividual IRI="#Medieval_Shop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEqualPower"/>
+        <NamedIndividual IRI="#Medieval_Worker"/>
+        <NamedIndividual IRI="#Medieval_Farmer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives"/>
+        <NamedIndividual IRI="#Medieval_Worker"/>
+        <NamedIndividual IRI="#Simple_House"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#owns"/>
+        <NamedIndividual IRI="#Medieval_Worker"/>
+        <NamedIndividual IRI="#Simple_House"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives"/>
+        <NamedIndividual IRI="#Medieval_Worker_1"/>
+        <NamedIndividual IRI="#Decent_House_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#owns"/>
+        <NamedIndividual IRI="#Medieval_Worker_1"/>
+        <NamedIndividual IRI="#Decent_House_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives"/>
+        <NamedIndividual IRI="#Medieval_Worker_2"/>
+        <NamedIndividual IRI="#Decent_House_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#owns"/>
+        <NamedIndividual IRI="#Medieval_Worker_2"/>
+        <NamedIndividual IRI="#Decent_House_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives"/>
+        <NamedIndividual IRI="#Medieval_Worker_3"/>
+        <NamedIndividual IRI="#Simple_House_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#owns"/>
+        <NamedIndividual IRI="#Medieval_Worker_3"/>
+        <NamedIndividual IRI="#Simple_House_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives"/>
+        <NamedIndividual IRI="#Medieval_Worker_4"/>
+        <NamedIndividual IRI="#Simple_House_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#owns"/>
+        <NamedIndividual IRI="#Medieval_Worker_4"/>
+        <NamedIndividual IRI="#Simple_House_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#serves"/>
+        <NamedIndividual IRI="#Peter_Apianus"/>
+        <NamedIndividual IRI="#Ferdinand_III"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#crown"/>
+        <NamedIndividual IRI="#Pope_Leo_III"/>
+        <NamedIndividual IRI="#Charlemagne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives"/>
+        <NamedIndividual IRI="#Pope_Leo_III"/>
+        <NamedIndividual IRI="#Canterbury_Cathedral"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives"/>
+        <NamedIndividual IRI="#Red_Baron"/>
+        <NamedIndividual IRI="#Medieval_Mansion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEqualPower"/>
+        <NamedIndividual IRI="#Sir_Noble"/>
+        <NamedIndividual IRI="#Lord_Noble"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasServants"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Edward_The_Black_Prince"/>
+        <NamedIndividual IRI="#Medieval_Maid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Edward_The_Black_Prince"/>
+        <NamedIndividual IRI="#Medieval_Mansion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMorePower"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Leopold_Wilhelm_of_Austria"/>
+        <NamedIndividual IRI="#Lord_Noble"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isBrother"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Leopold_Wilhelm_of_Austria"/>
+        <NamedIndividual IRI="#Ferdinand_III"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Basilian_Monk"/>
+        <Literal>Peter</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bathrooms"/>
+        <NamedIndividual IRI="#Bodiam_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Bodiam_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DateBuild"/>
+        <NamedIndividual IRI="#Bodiam_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1385-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Great_Hall"/>
+        <NamedIndividual IRI="#Bodiam_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kitchens"/>
+        <NamedIndividual IRI="#Bodiam_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Solars"/>
+        <NamedIndividual IRI="#Bodiam_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Brian_Boru"/>
+        <Literal>Brian Boru</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Servants"/>
+        <NamedIndividual IRI="#Brian_Boru"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bathrooms"/>
+        <NamedIndividual IRI="#Canterbury_Cathedral"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Canterbury_Cathedral"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Great_Hall"/>
+        <NamedIndividual IRI="#Canterbury_Cathedral"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kitchens"/>
+        <NamedIndividual IRI="#Canterbury_Cathedral"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Solars"/>
+        <NamedIndividual IRI="#Canterbury_Cathedral"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Carolos"/>
+        <Literal>Charls</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Charlemagne"/>
+        <Literal>Charlemagne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bathrooms"/>
+        <NamedIndividual IRI="#Decent_House"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Decent_House"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bathrooms"/>
+        <NamedIndividual IRI="#Decent_House_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Decent_House_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kitchens"/>
+        <NamedIndividual IRI="#Decent_House_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Solars"/>
+        <NamedIndividual IRI="#Decent_House_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Decent_House_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kitchens"/>
+        <NamedIndividual IRI="#Decent_House_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bathrooms"/>
+        <NamedIndividual IRI="#Dover_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Dover_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DateBuild"/>
+        <NamedIndividual IRI="#Dover_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1215-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Great_Hall"/>
+        <NamedIndividual IRI="#Dover_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kitchens"/>
+        <NamedIndividual IRI="#Dover_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Solars"/>
+        <NamedIndividual IRI="#Dover_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Servants"/>
+        <NamedIndividual IRI="#Dracula"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Servants"/>
+        <NamedIndividual IRI="#Duke_Of_Cornwall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Servants"/>
+        <NamedIndividual IRI="#Duke_Of_Wellington"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Servants"/>
+        <NamedIndividual IRI="#Earl_Of_Ulster"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bathrooms"/>
+        <NamedIndividual IRI="#Eynsford_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Eynsford_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DateBuild"/>
+        <NamedIndividual IRI="#Eynsford_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1085-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Great_Hall"/>
+        <NamedIndividual IRI="#Eynsford_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kitchens"/>
+        <NamedIndividual IRI="#Eynsford_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Solars"/>
+        <NamedIndividual IRI="#Eynsford_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Servants"/>
+        <NamedIndividual IRI="#Ferdinand_III"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bathrooms"/>
+        <NamedIndividual IRI="#Kenilworth_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Kenilworth_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DateBuild"/>
+        <NamedIndividual IRI="#Kenilworth_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1122-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Great_Hall"/>
+        <NamedIndividual IRI="#Kenilworth_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kitchens"/>
+        <NamedIndividual IRI="#Kenilworth_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Solars"/>
+        <NamedIndividual IRI="#Kenilworth_Castle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Servants"/>
+        <NamedIndividual IRI="#Marquess_Of_Winchester"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Mediaval_Blacksmith"/>
+        <Literal>Maxwell</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Shield"/>
+        <NamedIndividual IRI="#Mediaval_Blacksmith"/>
+        <Literal>Obsidian Shield</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sword"/>
+        <NamedIndividual IRI="#Mediaval_Blacksmith"/>
+        <Literal>DragonSlayer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bracelet"/>
+        <NamedIndividual IRI="#Medieval_Craftman"/>
+        <Literal>Gold Bracelet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Medieval_Craftman"/>
+        <Literal>Elias</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Necklace"/>
+        <NamedIndividual IRI="#Medieval_Craftman"/>
+        <Literal>Gemstones</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ring"/>
+        <NamedIndividual IRI="#Medieval_Craftman"/>
+        <Literal>Nibelungen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FieldSpace"/>
+        <NamedIndividual IRI="#Medieval_Farmer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">100.52</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Medieval_Farmer"/>
+        <Literal>John</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FieldSpace"/>
+        <NamedIndividual IRI="#Medieval_Farmer_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">120.54</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FieldSpace"/>
+        <NamedIndividual IRI="#Medieval_Farmer_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">201.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FieldSpace"/>
+        <NamedIndividual IRI="#Medieval_Farmer_3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">68.54</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Medieval_Inkeeper"/>
+        <Literal>Mark</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Medieval_Inn"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Inn"/>
+        <NamedIndividual IRI="#Medieval_Inn"/>
+        <Literal>White Pony</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Owner"/>
+        <NamedIndividual IRI="#Medieval_Inn"/>
+        <Literal>Mark</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rent"/>
+        <NamedIndividual IRI="#Medieval_Inn"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">45.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Solars"/>
+        <NamedIndividual IRI="#Medieval_Inn"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bathrooms"/>
+        <NamedIndividual IRI="#Medieval_Mansion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Medieval_Mansion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Great_Hall"/>
+        <NamedIndividual IRI="#Medieval_Mansion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kitchens"/>
+        <NamedIndividual IRI="#Medieval_Mansion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Solars"/>
+        <NamedIndividual IRI="#Medieval_Mansion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ring"/>
+        <NamedIndividual IRI="#Medieval_Merchant"/>
+        <Literal>Aeroga</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sword"/>
+        <NamedIndividual IRI="#Medieval_Merchant"/>
+        <Literal>GodSlayer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Shield"/>
+        <NamedIndividual IRI="#Medieval_Merchant_1"/>
+        <Literal>IronMaiden</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sword"/>
+        <NamedIndividual IRI="#Medieval_Merchant_1"/>
+        <Literal>SoulReaper</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Medieval_Merchant_2"/>
+        <Literal>Jelly</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bathrooms"/>
+        <NamedIndividual IRI="#Medieval_Monastery"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Medieval_Monastery"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Great_Hall"/>
+        <NamedIndividual IRI="#Medieval_Monastery"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kitchens"/>
+        <NamedIndividual IRI="#Medieval_Monastery"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Solars"/>
+        <NamedIndividual IRI="#Medieval_Monastery"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Medieval_Shop"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Great_Hall"/>
+        <NamedIndividual IRI="#Medieval_Shop"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Owner"/>
+        <NamedIndividual IRI="#Medieval_Shop"/>
+        <Literal>Jacob</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Medieval_Shopkeeper"/>
+        <Literal>Jacob</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Medieval_Worker"/>
+        <Literal>Alpha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Medieval_Worker_1"/>
+        <Literal>Beta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Medieval_Worker_2"/>
+        <Literal>Gamma</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Medieval_Worker_3"/>
+        <Literal>Delta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Medieval_Worker_4"/>
+        <Literal>Epsilon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRoyalBlood"/>
+        <NamedIndividual IRI="#Peter_Apianus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRoyalBlood"/>
+        <NamedIndividual IRI="#Red_Baron"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bathrooms"/>
+        <NamedIndividual IRI="#Simple_House"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Simple_House"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Simple_House_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Simple_House_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Great_Hall"/>
+        <NamedIndividual IRI="#Simple_House_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <NamedIndividual IRI="#Simple_House_3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Servants"/>
+        <NamedIndividual IRI="#Stefan_The_First"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRoyalBlood"/>
+        <NamedIndividual IRI="#Ulrich_von_Hutten"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Servants"/>
+        <NamedIndividual IRI="#Viscount_Hereford"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Servants"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Edward_The_Black_Prince"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Servants"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Leopold_Wilhelm_of_Austria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRoyalBlood"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Leopold_Wilhelm_of_Austria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMorePower"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTitle"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#sells"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#takeAdvise"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#advises"/>
+        <ObjectProperty IRI="#takeAdvise"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#belongsTo"/>
+        <ObjectProperty IRI="#owns"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasLessPower"/>
+        <ObjectProperty IRI="#hasMorePower"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#crown"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasProperty"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasServants"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasTitle"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#lives"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#protects"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#advises"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#buildBy"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasMorePrevilege"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#sells"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#takeAdvise"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#hasEqualPower"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isBrother"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasLessPower"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasMorePower"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#serves"/>
+    </TransitiveObjectProperty>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Bathrooms"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Bracelet"/>
+        <DataProperty IRI="#Jewelries"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Great_Hall"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Jewelries"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Kitchens"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Necklace"/>
+        <DataProperty IRI="#Jewelries"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Owner"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Rent"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Ring"/>
+        <DataProperty IRI="#Jewelries"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Shield"/>
+        <DataProperty IRI="#Weapons"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Solars"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Sword"/>
+        <DataProperty IRI="#Weapons"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Weapons"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Bathrooms"/>
+        <Class IRI="#Buildings"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <Class IRI="#Buildings"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Bracelet"/>
+        <Class IRI="#Craftman"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#FieldSpace"/>
+        <Class IRI="http://www.semanticweb.org/TheodorosRaptis/ontologies/2021/2/MonarchyRanking#Farmer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Great_Hall"/>
+        <Class IRI="#Buildings"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Kitchens"/>
+        <Class IRI="#Buildings"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Necklace"/>
+        <Class IRI="#Craftman"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Ring"/>
+        <Class IRI="#Craftman"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Shield"/>
+        <Class IRI="#Craftman"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Solars"/>
+        <Class IRI="#Buildings"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sword"/>
+        <Class IRI="#Craftman"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Bathrooms"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Bed_Chambers"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Bracelet"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DateBuild"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#FieldSpace"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Great_Hall"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Inn"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Jewelries"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Kitchens"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Necklace"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Owner"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Rent"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Ring"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Servants"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Shield"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Solars"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sword"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Weapons"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRoyalBlood"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FieldSpace</IRI>
+        <Literal xml:lang="en">square meters occupied by the field the farmer has</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#advises</IRI>
+        <Literal xml:lang="en">give advises</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#takeAdvise</IRI>
+        <Literal xml:lang="en">take advises</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
